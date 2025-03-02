@@ -16,46 +16,11 @@ This is a **full-stack** e-book exchange platform that allows users to **buy, se
 - MySQL
 - TypeORM
 
-## Project Structure
-```
-/ebook-exchange
-│── /backend
-|    database.js            (Database connection setup)
-│   ├── /controllers
-│   │   ├── userController.js      (Handles user authentication)
-│   │   ├── bookController.js     (Handles e-book uploads & downloads)
-│   │   ├── cartController.js      (Manages cart functionality)
-│   ├── /entities
-│   │   ├── User.js                (User schema)
-│   │   ├── Book.js               (E-Book schema)
-│   │   ├── Cart.js                (Cart schema)
-│   ├── /routes
-│   │   ├── userRoutes.js          (User authentication routes)
-│   │   ├── bookRoutes.js         (E-Book related routes)
-│   │   ├── cartRoutes.js          (Cart related routes)
-│   ├── /uploads                   (Storage for uploaded e-books)
-│   ├── index.js                   (Main server entry point)
-│── /frontend
-│   ├──home1.html             (Homepage)
-│   ├── reg.html               (User registration page)
-│   ├── log.html               (User login page)
-│   ├── profile.html           (User profile page)
-│   ├── upload.html            (E-Book upload page)
-│   ├── checkout.html          (Checkout page)
-│   ├── styles.css         (CSS styles)
-│   ├── login.js           (Handles login functionality)
-│   ├── reg.js             (Handles registration functionality)
-│   ├── upload.js          (Handles e-book upload functionality)
-│   ├── cart.js            (Manages cart operations)
-```
-
 ## Features
 **User Authentication:** Registration & login without middleware.
-**E-Book Upload & Storage:** Users can upload and share e-books.
 **Cart System:** Users can add e-books to a cart before downloading.
 **Checkout Page:** Allows users to finalize their purchases.
 **User Profile Page:** Users can view and update their profile information.
-**E-Book Download:** Users can download e-books after adding them to the cart.
 **MySQL Database Integration:** Stores user, e-book, and cart data.
 **Secure & Scalable Backend:** Built with Node.js and Express.js.
 
