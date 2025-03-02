@@ -85,3 +85,8 @@ Feel free to fork the repository and submit pull requests with improvements!
 ## License
 This project is open-source under the **MIT License**.
 
+---
+
+**Author:** M.Harshitha  
+**GitHub:** [harshitharajesh19](https://github.com/harshitharajesh19)
+
