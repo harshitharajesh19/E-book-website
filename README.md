@@ -57,22 +57,6 @@ node index.js
 ### Run the Frontend
 Simply open the HTML files in a browser or set up a simple server.
 
-### API Endpoints
-### User Authentication
-- `POST /api/users` - Register a new user
-- `POST /api/users/login` - Login user
-
-### E-Book Management
-- `POST /api/ebooks/upload` - Upload an e-book
-- `GET /api/ebooks` - Fetch all e-books
-- `GET /api/ebooks/download/:id` - Download e-book by ID
-
-### Cart & Checkout
-- `POST /api/cart/add` - Add e-book to cart
-- `GET /api/cart/:userId` - View cart items
-- `DELETE /api/cart/remove/:cartItemId` - Remove e-book from cart
-- `POST /api/checkout` - Checkout process
-
 ## Future Enhancements
 **Search & Filter System** for e-books.
 **Book Recommendations** based on user preferences.
