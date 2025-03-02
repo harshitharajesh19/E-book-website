@@ -3,7 +3,7 @@
 ## Project Overview
 This is a **full-stack** e-book exchange platform that allows users to **buy, sell, and exchange e-books**. Users can upload e-books, add them to their cart, and download them after purchase. The platform also features **user authentication (registration & login)**, a cart system, a profile page, and a checkout process.
 
-## 🏗️ Tech Stack
+## Tech Stack
 **Frontend:**
 - HTML
 - CSS
@@ -16,7 +16,7 @@ This is a **full-stack** e-book exchange platform that allows users to **buy, se
 - MySQL
 - TypeORM
 
-## 📂 Project Structure
+## Project Structure
 ```
 /ebook-exchange
 │── /backend
