@@ -4,7 +4,6 @@ import cors from 'cors';
 import connectDatabase from "./src/database.js";
 import bookRoutes from './src/routes/bookRoutes.js';
 import userRoutes from './src/routes/userRoutes.js';
-// import cartRoutes from './src/routes/cartRoutes.js';
 
 const app = express();
 const PORT = process.env.PORT || 3000;
