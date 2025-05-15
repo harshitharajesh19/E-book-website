@@ -1,8 +1,7 @@
-#  E-Book Exchange Website
+#  E-Book Website
 
 ## Project Overview
-This is a **full-stack** e-book exchange platform that allows users to **buy, sell, and exchange e-books**. Users can upload e-books, add them to their cart, and download them after purchase. The platform also features **user authentication (registration & login)**, a cart system, a profile page, and a checkout process.
-
+A full-stack web application that enables users to upload and download **Books**, **Handwritten Notes**, **PDFs**, **Novels**, and other educational resources. This platform supports secure user registration and login, providing a personalized experience for each user.
 ## Tech Stack
 **Frontend:**
 - HTML
@@ -17,18 +16,36 @@ This is a **full-stack** e-book exchange platform that allows users to **buy, se
 - TypeORM
 
 ## Features
-**User Authentication:** Registration & login without middleware.
-**Cart System:** Users can add e-books to a cart before downloading.
-**Checkout Page:** Allows users to finalize their purchases.
-**User Profile Page:** Users can view and update their profile information.
-**MySQL Database Integration:** Stores user, e-book, and cart data.
-**Secure & Scalable Backend:** Built with Node.js and Express.js.
+### User Authentication
+- User registration and login without middleware
+- Session-based access control for protected routes
+
+### Upload & Download Resources
+- Upload e-books, handwritten notes, PDFs, novels, and more
+- Download shared educational resources for free
+
+### Wishlist System
+- Add e-books to Wishlist to read them or download them later
+
+### User Profile Management
+- View and update user profile information
+- Select gender or upload a custom profile picture
+- View and delete books uploaded by the user
+
+### Dashboard & Resource Management
+- View all uploaded books on the main dashboard
+- Easily browse educational materials uploaded by users by category
+
+### Backend & Database
+- MySQL integration for storing users, books, and uploads data
+- Secure and scalable backend using Node.js and Express.js
+
 
 ## Installation & Setup
 ### Clone the Repository
 ```sh
-git clone https://github.com/yourusername/ebook-exchange.git
-cd ebook-exchange
+git clone https://github.com/yourusername/ebook-Website.git
+cd ebook-Website
 ```
 
 ### Install Dependencies
@@ -58,10 +75,8 @@ node index.js
 Simply open the HTML files in a browser or set up a simple server.
 
 ## Future Enhancements
-**Search & Filter System** for e-books.
 **Book Recommendations** based on user preferences.
 **Ratings & Reviews** for e-books.
-**Profile Management Enhancements**.
 
 ## Contributing
 Feel free to fork the repository and submit pull requests with improvements!
